@@ -1,0 +1,24 @@
+﻿  main.cpp
+E:\c++\ScientificCalculator\ScientificCalculator\main.cpp(170,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(223,34): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(211): message : 在编译 类 模板 成员函数“void StringNumber<int>::ThirdLevelCal(std::vector<StringNumber<int>,std::allocator<StringNumber<int>>> &,int,int)”时
+E:\c++\ScientificCalculator\ScientificCalculator\main.cpp(47): message : 查看对正在编译的函数 模板 实例化“void StringNumber<int>::ThirdLevelCal(std::vector<StringNumber<int>,std::allocator<StringNumber<int>>> &,int,int)”的引用
+E:\c++\ScientificCalculator\ScientificCalculator\main.cpp(40): message : 查看对正在编译的 类 模板 实例化“StringNumber<int>”的引用
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(232,36): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(41,20): warning C4804: “~”: 在操作中使用类型“bool”不安全
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(11): message : 在编译 类 模板 成员函数“StringNumber<double>::StringNumber(std::string,int &)”时
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(109): message : 查看对正在编译的函数 模板 实例化“StringNumber<double>::StringNumber(std::string,int &)”的引用
+E:\c++\ScientificCalculator\ScientificCalculator\ScientificCalculator.cpp(5): message : 在编译 类 模板 成员函数“StringNumber<double>::StringNumber(void)”时
+E:\c++\ScientificCalculator\ScientificCalculator\main.cpp(23): message : 查看对正在编译的函数 模板 实例化“StringNumber<double>::StringNumber(void)”的引用
+E:\c++\ScientificCalculator\ScientificCalculator\main.cpp(23): message : 查看对正在编译的 类 模板 实例化“StringNumber<double>”的引用
+  ScientificCalculator.cpp
+  正在生成代码...
+  ScientificCalculator.vcxproj -> E:\c++\ScientificCalculator\ScientificCalculator\Debug\ScientificCalculator.exe
